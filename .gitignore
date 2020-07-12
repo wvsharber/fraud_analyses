@@ -1,3 +1,7 @@
+#Files from take-home exercise
+*.csv
+*.pdf
+
 #DS_Store from Mac
 *.DS_Store
 
