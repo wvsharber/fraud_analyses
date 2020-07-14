@@ -1,6 +1,6 @@
 # Sample Fraud Analyses
 
-This repo explores the value of features for identifying fraudulent purchase attempts. It includes commonly used directories, including `notebooks/`, `data/`, and `src/` directories, and files for efficient setup of the src code and conda environment. Feel free to customize the directory for your usage!
+This repo explores the value of data features for identifying fraudulent purchase attempts. 
 
 ## Repo Setup
 
@@ -28,3 +28,5 @@ python -m ipykernel install --user --name fraud-env --display-name "fraud-env"
 The `data/` directory contains `raw/` and `processed/` subdirectories and holds all data for the project. Place a copy of the data CSV in the `data/raw/` directory to use the subsequent analytical code. 
 
 The `notebooks/` directory holds Jupyter notebooks with Python-based code for analyzing the data. The "final" notebook is report style, and focuses on findings rather than exploratory analyses, which are found in the `exploratory/` subdirectory.
+
+The `src/` directory holds custom Python code that can be utilized by calling the src package directly.
