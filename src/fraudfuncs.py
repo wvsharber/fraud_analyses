@@ -107,7 +107,7 @@ def split_continuous(data, feature, bins):
 def split_categorical(data, feature):
     """Function to split categorical data into fraudulent and nonfraudulent transactions and return a dataframe with counts/percentages for each category."""
     #Replace missing data with a missing label
-    data[feature].fillna('Not Submitted', inplace = True)
+    data[feature].fillna('Missing', inplace = True)
     #Get number of observations in each category
     count_notfraud = data[data['isfraud'] == 0].groupby(feature)[feature].count()
     #Calculate the percent of observations in each category  
